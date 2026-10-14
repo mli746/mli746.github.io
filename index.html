@@ -54,7 +54,7 @@
     <section class="wrap hero" id="top">
       <div class="hero-text">
         <h1 class="name">Miao Li</h1>
-        <p class="lede">Ph.D. student in <strong>Machine Learning</strong> at the H. Milton Stewart School of Industrial and Systems Engineering, <strong>Georgia Tech</strong>, advised by <strong>Pascal Van Hentenryck</strong>.</p>
+        <p class="lede">Ph.D. student in <strong>Machine Learning</strong> at the H. Milton Stewart School of Industrial and Systems Engineering, <strong>Georgia Tech</strong>.</p>
 
         <p class="statement">
           <span class="sr-only">I work on how language models generate, learn, and act as agents, toward efficient, self-improving AI.</span>
@@ -63,7 +63,8 @@
 
         <div class="bio">
           <p>My research focuses on <b>efficient LLM inference</b> (particularly for <b>diffusion language models</b>), <b>data-centric post-training</b>, and <b>agentic AI systems</b>. I develop parallel decoding algorithms and end-to-end post-training pipelines that combine self-distillation-based data generation with learner-compatible supervision. I also develop agent harnesses that integrate tool orchestration, structured memory, and verifiable feedback to guide iterative policy discovery and ensure reliable execution.</p>
-          <p>Before Georgia Tech, I received an M.S. in Computational and Applied Mathematics from the <b>University of Chicago</b> and a B.S. in Mathematics from <b>UC San Diego</b>, and worked on secure federated learning as a research intern at <b>Argonne National Laboratory</b>.</p>
+          <p>My earlier research is in <b>optimization and operations research</b>: conformal prediction that certifies optimality gaps with finite-sample guarantees on large-scale economic dispatch, constraint-informed active learning for AC optimal power flow (ACOPF) optimization proxies, and sequential quadratic programming on Riemannian manifolds.</p>
+          <p>At Georgia Tech, I am advised by <a href="https://sites.gatech.edu/pascal-van-hentenryck/"><b>Pascal Van Hentenryck</b></a>. Before that, I received an M.S. in Computational and Applied Mathematics from the <b>University of Chicago</b> and a B.S. in Mathematics from <b>UC San Diego</b>.</p>
         </div>
 
         <p class="linkrow mono">
@@ -333,6 +334,8 @@
           <ul>
             <li>Developed CPUL&ndash;OMLT, a lightweight, plug-and-play conformal framework compatible with <b>any</b> optimizer providing primal&ndash;dual bounds, delivering finite-sample coverage guarantees without modifying existing solvers.</li>
             <li>Achieved up to <b>3.8&times; narrower optimality intervals</b> at 90% target coverage on large-scale economic dispatch, enabling risk-aware stopping decisions and <b>smarter compute allocation</b>.</li>
+            <li>Applied the method to large-scale economic dispatch, a real-world operations research application where operators need auditable indicators of whether a solution is good enough for deployment.</li>
+            <li>Showed how narrower certified intervals can reduce unnecessary solver re-runs and manual review, saving deployment time and creating compute-allocation upside for harder optimization instances.</li>
           </ul>
         </article>
 
@@ -341,6 +344,13 @@
           <ul>
             <li>Developed constraint-guided active learning that combines learned active-set predictions with validation feedback to target hard, underrepresented solution regimes.</li>
             <li>Reduced <b>tail prediction errors</b> on large-scale ACOPF benchmarks (up to 1,354 buses), reaching 90% of converged performance <b>2&ndash;4 rounds earlier</b> and saving <b>600&ndash;1,200 expensive solver labels</b>.</li>
+          </ul>
+        </article>
+
+        <article class="card c">
+          <h3>Riemannian Optimization <span>SQP on manifolds</span></h3>
+          <ul>
+            <li>Conducted theoretical analysis of Sequential Quadratic Programming (SQP) algorithms for optimization on Riemannian manifolds (University of Chicago, Booth School of Business; preprint available upon request).</li>
           </ul>
         </article>
       </div>
