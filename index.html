@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miao Li</title>
+  <meta name="description" content="Miao Li is a Ph.D. student in Machine Learning at Georgia Tech working on efficient LLM inference (diffusion language models), data-centric post-training, and agentic AI systems.">
+  <meta property="og:title" content="Miao Li">
+  <meta property="og:description" content="Ph.D. student in Machine Learning at Georgia Tech: efficient LLM inference, data-centric post-training, and agentic AI systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mli746.github.io/">
+  <meta property="og:image" content="https://mli746.github.io/images/profile.jpg">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0f17" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Miao Li, back to top">
+        <span class="brand-dots" aria-hidden="true"><i class="a"></i><i class="b"></i><i class="c"></i></span>
+        <span>Miao Li</span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#news" class="hide-sm">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#research" class="hide-sm">Research</a>
+        <a href="#experience" class="hide-sm">Experience</a>
+        <a href="files/cv.pdf">CV</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v2.5M12 20v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M1.5 12H4M20 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="wrap hero" id="top">
+      <div class="hero-text">
+        <h1 class="name">Miao Li</h1>
+        <p class="lede">Ph.D. student in <strong>Machine Learning</strong> at the H. Milton Stewart School of Industrial and Systems Engineering, <strong>Georgia Tech</strong>, advised by <strong>Pascal Van Hentenryck</strong>.</p>
+
+        <p class="statement">
+          <span class="sr-only">I work on how language models generate, learn, and act as agents, toward efficient, self-improving AI.</span>
+          <span aria-hidden="true" id="statement">I work on how language models <span class="ka">generate, learn</span>, and <span class="kb">act as agents</span>, toward efficient, self-improving AI.</span>
+        </p>
+
+        <div class="bio">
+          <p>My research focuses on <b>efficient LLM inference</b> (particularly for <b>diffusion language models</b>), <b>data-centric post-training</b>, and <b>agentic AI systems</b>. I develop parallel decoding algorithms and end-to-end post-training pipelines that combine self-distillation-based data generation with learner-compatible supervision. I also develop agent harnesses that integrate tool orchestration, structured memory, and verifiable feedback to guide iterative policy discovery and ensure reliable execution.</p>
+          <p>Before Georgia Tech, I received an M.S. in Computational and Applied Mathematics from the <b>University of Chicago</b> and a B.S. in Mathematics from <b>UC San Diego</b>, and worked on secure federated learning as a research intern at <b>Argonne National Laboratory</b>.</p>
+        </div>
+
+        <p class="linkrow mono">
+          <a href="mailto:mli746@gatech.edu">mli746@gatech.edu</a>
+          <a href="https://scholar.google.com/citations?user=ixqxIAwAAAAJ">Google Scholar</a>
+          <a href="https://github.com/mli746">GitHub</a>
+          <a href="https://www.linkedin.com/in/miao-li-8836uu/">LinkedIn</a>
+          <a href="files/cv.pdf">CV (PDF)</a>
+        </p>
+      </div>
+
+      <figure class="photo">
+        <img src="images/profile.jpg" width="640" height="418" alt="Photo of Miao Li">
+        <figcaption class="icons" aria-label="Links">
+          <a href="mailto:mli746@gatech.edu" aria-label="Email"><svg viewBox="0 0 24 24" class="stroke"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></a>
+          <a href="https://scholar.google.com/citations?user=ixqxIAwAAAAJ" aria-label="Google Scholar"><svg viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
+          <a href="https://github.com/mli746" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+          <a href="https://www.linkedin.com/in/miao-li-8836uu/" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="files/cv.pdf" aria-label="CV (PDF)"><svg viewBox="0 0 24 24" class="stroke"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ============ HIGHLIGHTS ============ -->
+    <section class="wrap" aria-label="Research highlights">
+      <div class="stats">
+        <div class="stat a">
+          <div class="stat-n"><small>up to</small>65%</div>
+          <div class="stat-l">fewer model forward passes than confidence-based parallel decoding</div>
+          <div class="stat-s mono">PVF &middot; EMNLP 2026</div>
+        </div>
+        <div class="stat a">
+          <div class="stat-n"><small>up to</small>+12.84</div>
+          <div class="stat-l">points over vanilla SFT on a single benchmark (LLaDA-8B, Dream-7B)</div>
+          <div class="stat-s mono">PACS &middot; DLM post-training</div>
+        </div>
+        <div class="stat b">
+          <div class="stat-n">+11%</div>
+          <div class="stat-l">mean feasible-instance count over a direct LLM agent under a shared workload budget</div>
+          <div class="stat-s mono">OPTAgent &middot; MLxOR @ NeurIPS</div>
+        </div>
+        <div class="stat c">
+          <div class="stat-n"><small>up to</small>3.8&times;</div>
+          <div class="stat-l">narrower optimality intervals at 90% coverage on economic dispatch</div>
+          <div class="stat-s mono">CPUL-OMLT &middot; conformal</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWS ============ -->
+    <section class="wrap section" id="news">
+      <div class="sec-h"><span class="num mono">01</span><h2>News</h2></div>
+      <ul class="news">
+        <li><span class="tag mono">arXiv</span><span><a href="https://arxiv.org/abs/2610.18001">Match the Canvas, Not Just the Answer</a> (PACS) is on arXiv and under review at ICLR 2027.</span></li>
+        <li><span class="tag mono">EMNLP 2026</span><span><a href="https://arxiv.org/abs/2601.12247">Plan, Verify and Fill</a> accepted to EMNLP 2026, and selected as a <span class="spot">&#9733; Spotlight</span> at the Non-AR LLM workshop @ COLM 2026.</span></li>
+        <li><span class="tag mono">NeurIPS 2026</span><span><a href="https://arxiv.org/abs/2602.12670">SkillsBench</a> accepted to the NeurIPS 2026 Datasets &amp; Benchmarks Track.</span></li>
+        <li><span class="tag mono">NeurIPS 2026</span><span><a href="https://openreview.net/forum?id=ydWJ4mL4nu">OPTAgent</a> accepted at MLxOR @ NeurIPS 2026.</span></li>
+        <li><span class="tag mono">NeurIPS 2026</span><span><a href="https://openreview.net/forum?id=mOjzm8ppWG">Target-Token Asymmetry</a> accepted at Interp4Discovery @ NeurIPS 2026.</span></li>
+        <li><span class="tag mono">PSCC 2026</span><span><a href="https://arxiv.org/abs/2511.06248">Constraint-Informed Active Learning</a> accepted to PSCC 2026 (Electric Power Systems Research).</span></li>
+        <li><span class="tag mono">ICLR 2026</span><span><a href="https://arxiv.org/abs/2503.04071">Tightening Optimality Gap with Confidence</a> accepted at the Trustworthy AI workshop @ ICLR 2026.</span></li>
+        <li><span class="tag mono">Award</span><span>Received the George Nemhauser Fellowship at Georgia Tech.</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section class="wrap section" id="publications">
+      <div class="sec-h">
+        <span class="num mono">02</span><h2>Publications &amp; Preprints</h2>
+        <span class="sec-note mono">* equal contribution</span>
+      </div>
+      <p class="legend"><span class="chip">Venue 2026</span> accepted or published &nbsp;&middot;&nbsp; <span class="chip pending">Submitted / preprint</span> not yet accepted</p>
+
+      <div class="group a">
+        <h3 class="group-h"><i class="dot"></i>LLMs &amp; Diffusion Language Models <span>parallel decoding, post-training, and interpretability</span></h3>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://arxiv.org/abs/2601.12247">Plan, Verify and Fill: A Structured Parallel Decoding Approach for Diffusion Language Models</a>
+            <p class="authors"><b>Miao Li</b>*, Hanyang Jiang*, Sikai Cheng, Hengyu Fu, Yuhang Cai, Baihe Huang, Tinghan Ye, Xuanzhou Chen, Pascal Van Hentenryck</p>
+            <p class="plinks"><a href="https://arxiv.org/abs/2601.12247">arXiv</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip">EMNLP <em>2026</em></span>
+            <span class="note"><span class="spot">&#9733; Spotlight</span> Non-AR LLM @ COLM 2026</span>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://arxiv.org/abs/2610.18001">Match the Canvas, Not Just the Answer: Predictability-Aware SFT for Diffusion Language Models</a>
+            <p class="authors"><b>Miao Li</b>*, Hanyang Jiang*, Hengyu Fu, Baihe Huang, Yating Liu, Yuhang Cai, Changkun Guan, Zhongzhu Chen, Jiecheng Lu, Michael A. Boateng, Pascal Van Hentenryck</p>
+            <p class="plinks"><a href="https://arxiv.org/abs/2610.18001">arXiv</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip pending">Submitted to ICLR 2027</span>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://openreview.net/forum?id=mOjzm8ppWG">Target-Token Asymmetry Can Masquerade as Depth Specialization</a>
+            <p class="authors">Danlin Li, <b>Miao Li</b>, et al.</p>
+            <p class="plinks"><a href="https://openreview.net/forum?id=mOjzm8ppWG">OpenReview</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip pending">Submitted to ICLR 2027</span>
+            <span class="note">Accepted at Interp4Discovery @ NeurIPS 2026</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="group b">
+        <h3 class="group-h"><i class="dot"></i>Agentic AI <span>agent harnesses, RSI, agent benchmarks</span></h3>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://openreview.net/forum?id=ydWJ4mL4nu">OPTAgent: From Standalone Solvers to Deployment-Aware Solver Ecosystems</a>
+            <p class="authors">Hanyang Jiang*, Changkun Guan*, <b>Miao Li</b>*, Danlin Li, Sikai Cheng, Pascal Van Hentenryck, Russell Bent</p>
+            <p class="plinks"><a href="https://openreview.net/forum?id=ydWJ4mL4nu">OpenReview</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip">MLxOR @ NeurIPS <em>2026</em></span>
+            <span class="note">Full paper in preparation for ICML 2027</span>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://arxiv.org/abs/2602.12670">SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks</a>
+            <p class="authors">Xiangyi Li, Yimin Liu, Wenbo Chen, &hellip;, <b>Miao Li</b>, et al. (77 authors)</p>
+            <p class="plinks"><a href="https://arxiv.org/abs/2602.12670">arXiv</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip">NeurIPS <em>2026</em></span>
+            <span class="note">Datasets &amp; Benchmarks Track</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="group c">
+        <h3 class="group-h"><i class="dot"></i>Trustworthy AI &amp; Numerical Optimization <span>conformal prediction, optimization surrogates, SQP, federated learning</span></h3>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://arxiv.org/abs/2511.06248">Constraint-Informed Active Learning for End-to-End ACOPF Optimization Proxies</a>
+            <p class="authors"><b>Miao Li</b>, Michael Klamkin, Pascal Van Hentenryck, Wenting Li, Russell Bent</p>
+            <p class="plinks"><a href="https://arxiv.org/abs/2511.06248">arXiv</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip">EPSR <em>2027</em></span>
+            <span class="note">Electric Power Systems Research</span>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://arxiv.org/abs/2503.04071">Tightening Optimality Gap with Confidence through Conformal Prediction</a>
+            <p class="authors"><b>Miao Li</b>, Michael Klamkin, Russell Bent, Pascal Van Hentenryck</p>
+            <p class="plinks"><a href="https://arxiv.org/abs/2503.04071">arXiv</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip">Trustworthy AI @ ICLR <em>2026</em></span>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <a class="pub-title" href="https://doi.org/10.1016/j.csbj.2024.12.001">Enabling End-to-End Secure Federated Learning in Biomedical Research on Heterogeneous Computing Environments with APPFLx</a>
+            <p class="authors">Trung-Hieu Hoang, Jordan Fuhrman, Marcus Klarqvist, <b>Miao Li</b>, Pranshu Chaturvedi, Zilinghan Li, Kibaek Kim, Minseok Ryu, Ryan Chard, E. A. Huerta, Maryellen Giger, Ravi Madduri</p>
+            <p class="plinks"><a href="https://doi.org/10.1016/j.csbj.2024.12.001">Journal</a><a href="https://arxiv.org/abs/2312.08701">arXiv</a></p>
+          </div>
+          <div class="pub-side">
+            <span class="chip">CSBJ <em>2025</em></span>
+            <span class="note">Comput. Struct. Biotechnol. J., Vol. 28</span>
+          </div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <span class="pub-title">A Theoretically Sound Sequential Quadratic Programming Algorithm on Riemannian Manifolds</span>
+            <p class="authors"><b>Miao Li</b>, Sen Na, Mladen Kolar</p>
+          </div>
+          <div class="pub-side">
+            <span class="chip pending">Preprint</span>
+            <span class="note">Available upon request</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="group wip">
+        <h3 class="group-h"><i class="dot"></i>Works in Progress</h3>
+
+        <article class="pub">
+          <div class="pub-main">
+            <span class="pub-title">OPTAgent-Evolve: Towards Deployment-Aware Optimization Ecosystems</span>
+            <p class="authors"><b>Miao Li</b>*, Hanyang Jiang*, Changkun Guan*, Pascal Van Hentenryck, et al.</p>
+          </div>
+          <div class="pub-side"><span class="chip pending">In preparation for ICML 2027</span></div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <span class="pub-title">TextPredOpt: Benchmarking Language Models for Predict-then-Optimize from Text</span>
+            <p class="authors">Joe Ye, <b>Miao Li</b>, Pascal Van Hentenryck, et al.</p>
+          </div>
+          <div class="pub-side"><span class="chip pending">In preparation for ICML 2027</span></div>
+        </article>
+
+        <article class="pub">
+          <div class="pub-main">
+            <span class="pub-title">EvoDecomp: Agent-Evolved Decomposition for Large-Scale Freight Routing</span>
+            <p class="authors">Sikai Cheng, <b>Miao Li</b>, et al.</p>
+          </div>
+          <div class="pub-side"><span class="chip pending">In preparation for ICML 2027</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section class="wrap section" id="research">
+      <div class="sec-h"><span class="num mono">03</span><h2>Research</h2></div>
+      <div class="cards">
+        <article class="card a">
+          <h3>Efficient Parallel Decoding <span>Plan-Verify-Fill</span></h3>
+          <ul>
+            <li>Developed PVF, combining semantic-anchor planning and selective verification to reduce model forward passes by up to <b>65%</b> versus confidence-based parallel decoding.</li>
+          </ul>
+        </article>
+
+        <article class="card a">
+          <h3>Data-Centric LLM Post-Training <span>PACS</span></h3>
+          <ul>
+            <li>Built an end-to-end post-training pipeline spanning solution-hinted <b>self-distillation</b>, LLM-based quality filtering, and fine-tuning.</li>
+            <li>Extended <b>distribution-compatible fine-tuning from answers to canvases</b>, exploiting masked diffusion LLMs&rsquo; pre-specified, attention-visible canvas&mdash;a degree of freedom absent from standard autoregressive teacher forcing&mdash;to better match supervision to the model&rsquo;s existing predictive distribution <b>by adapting prediction conditions</b>.</li>
+            <li>Developed PACS to select training contexts by model predictability&mdash;adapting how reference answers are taught while preserving their content.</li>
+            <li>Improved benchmark accuracy by up to <b>12.84</b> percentage points over vanilla SFT in evaluations spanning LLaDA-8B and Dream-7B.</li>
+          </ul>
+        </article>
+
+        <article class="card a">
+          <h3>LLM Interpretability <span>Target-Token Asymmetry</span></h3>
+          <ul>
+            <li>Co-authored Target-Token Asymmetry: layer-ablation &ldquo;depth specialization&rdquo; can be a target-token artifact (41-condition audit); in GSM8K vs. Wikitext, removing whitespace flips its sign.</li>
+          </ul>
+        </article>
+
+        <article class="card b">
+          <h3>Evaluation-Guided Policy Discovery <span>OPTAgent</span></h3>
+          <ul>
+            <li>Built an agent harness that evolves solver-orchestration policies through role-based search, policy memory, and verified evaluation feedback.</li>
+            <li>Compiled discovered policies into deterministic controllers with enforced compute budgets and no deployment-time LLM calls.</li>
+            <li>Increased mean feasible-instance count by <b>11%</b> over a direct LLM agent under a shared workload budget.</li>
+          </ul>
+        </article>
+
+        <article class="card b">
+          <h3>Agent Benchmarking <span>SkillsBench / BenchFlow</span></h3>
+          <ul>
+            <li>Contributed the <code>gpu-cluster-online-scheduling</code> task, a verifier-based benchmark module for evaluating agent behavior on online GPU-cluster scheduling under partial information.</li>
+            <li>Designed the task around operations-relevant constraints including GPU-type compatibility, capacity limits, CPU/memory feasibility, deadline penalties, fragmentation cost, and active-machine usage.</li>
+            <li>In task-level paired evaluation, the curated Skill improved a GPT-5.5-based agent&rsquo;s pass rate from 20% to 40%, highlighting how domain-specific procedural guidance can improve agent performance beyond the base harness.</li>
+          </ul>
+        </article>
+
+        <article class="card c">
+          <h3>Optimality Assessment via Conformal Prediction <span>CPUL-OMLT</span></h3>
+          <ul>
+            <li>Developed CPUL&ndash;OMLT, a lightweight, plug-and-play conformal framework compatible with <b>any</b> optimizer providing primal&ndash;dual bounds, delivering finite-sample coverage guarantees without modifying existing solvers.</li>
+            <li>Achieved up to <b>3.8&times; narrower optimality intervals</b> at 90% target coverage on large-scale economic dispatch, enabling risk-aware stopping decisions and <b>smarter compute allocation</b>.</li>
+          </ul>
+        </article>
+
+        <article class="card c">
+          <h3>Structure-Aware Active Learning for Optimization Proxies</h3>
+          <ul>
+            <li>Developed constraint-guided active learning that combines learned active-set predictions with validation feedback to target hard, underrepresented solution regimes.</li>
+            <li>Reduced <b>tail prediction errors</b> on large-scale ACOPF benchmarks (up to 1,354 buses), reaching 90% of converged performance <b>2&ndash;4 rounds earlier</b> and saving <b>600&ndash;1,200 expensive solver labels</b>.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="wrap section" id="experience">
+      <div class="sec-h"><span class="num mono">04</span><h2>Experience</h2></div>
+
+      <div class="xp">
+        <div class="xp-head">
+          <div><b>Argonne National Laboratory</b><span class="role">Research Intern, Mathematics and Computer Science Division</span></div>
+          <div class="when mono">Oct 2022 &ndash; Aug 2023<span>Lemont, IL</span></div>
+        </div>
+        <ul>
+          <li>Developed <code>APPFLx</code>, a secure federated learning framework for biomedical research, enabling privacy-preserving training across heterogeneous computing environments.</li>
+          <li>Investigated gradient inversion attacks on biomedical images to strengthen privacy protocols against adversarial reconstruction.</li>
+        </ul>
+        <p class="advisor">Advisor: Mihai Anitescu</p>
+      </div>
+
+      <div class="xp">
+        <div class="xp-head">
+          <div><b>University of Chicago, Booth School of Business</b><span class="role">Research Assistant</span></div>
+          <div class="when mono">Jul 2021 &ndash; Sep 2022<span>Chicago, IL</span></div>
+        </div>
+        <ul>
+          <li>Conducted theoretical analysis of Sequential Quadratic Programming (SQP) algorithms for optimization on Riemannian manifolds.</li>
+        </ul>
+        <p class="advisor">Advisor: Mladen Kolar</p>
+      </div>
+
+      <div class="xp">
+        <div class="xp-head">
+          <div><b>Northeast Securities</b><span class="role">Quantitative Research</span></div>
+          <div class="when mono">Nov 2018 &ndash; Aug 2019<span>Shanghai, China</span></div>
+        </div>
+        <ul>
+          <li>Evaluated and backtested multi-factor equity signals for quantitative investment strategies.</li>
+          <li>Validated factor stability, portfolio construction assumptions, and risk-adjusted performance across historical market regimes.</li>
+        </ul>
+      </div>
+
+      <h3 class="sub-h">Education</h3>
+      <div class="edu">
+        <div class="edu-row"><div><b>Georgia Institute of Technology</b><span class="role">Ph.D. in Machine Learning (ISyE)</span></div><div class="when mono">Aug 2023 &ndash; May 2027 (expected)<span>Atlanta, GA</span></div></div>
+        <div class="edu-row"><div><b>University of Chicago</b><span class="role">M.S. in Computational and Applied Mathematics</span></div><div class="when mono">2021<span>Chicago, IL</span></div></div>
+        <div class="edu-row"><div><b>University of California, San Diego</b><span class="role">B.S. in Mathematics</span></div><div class="when mono">2018<span>La Jolla, CA</span></div></div>
+      </div>
+
+      <div class="two-col">
+        <div>
+          <h3 class="sub-h">Teaching</h3>
+          <p class="plain"><b>Teaching Assistant</b>, UC San Diego (2016&ndash;2018): Game Theory, Calculus I/II, Intro to Analysis, Nonlinear Dynamics.</p>
+        </div>
+        <div>
+          <h3 class="sub-h">Honors &amp; Awards</h3>
+          <p class="plain"><b>George Nemhauser Fellowship</b>, Georgia Tech</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <div class="f-name">Miao Li</div>
+        <div class="f-sub">Georgia Institute of Technology &middot; Atlanta, GA</div>
+      </div>
+      <p class="linkrow mono">
+        <a href="mailto:mli746@gatech.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=ixqxIAwAAAAJ">Scholar</a>
+        <a href="https://github.com/mli746">GitHub</a>
+        <a href="https://www.linkedin.com/in/miao-li-8836uu/">LinkedIn</a>
+        <a href="files/cv.pdf">CV</a>
+      </p>
+      <div class="f-sub mono">Last updated October 2026</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
